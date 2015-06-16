@@ -260,7 +260,6 @@ package stageClasses
 				myShip.updates();
 				if (myShip.lives >= 40)
 				{
-					myShip.removeEntity();
 					//shake.removeChild(myShip);
 					//myShip = null;
 					

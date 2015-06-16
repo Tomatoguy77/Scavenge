@@ -8,15 +8,15 @@
   <compiler>
     <define append="true">
       <name>CONFIG::debug</name>
-      <value>false</value>
-    </define>
-    <define append="true">
-      <name>CONFIG::release</name>
       <value>true</value>
     </define>
     <define append="true">
+      <name>CONFIG::release</name>
+      <value>false</value>
+    </define>
+    <define append="true">
       <name>CONFIG::timeStamp</name>
-      <value>'15-6-2015'</value>
+      <value>'16-Jun-15'</value>
     </define>
     <define append="true">
       <name>CONFIG::air</name>
@@ -30,39 +30,37 @@
       <name>CONFIG::desktop</name>
       <value>false</value>
     </define>
-    <optimize>true</optimize>
-    <omit-trace-statements>true</omit-trace-statements>
-    <verbose-stacktraces>false</verbose-stacktraces>
+    <verbose-stacktraces>true</verbose-stacktraces>
     <source-path append="true">
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\src</path-element>
-      <path-element>C:\Program Files (x86)\FlashDevelop\Library\AS3\classes</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\src</path-element>
+      <path-element>D:\programmas\flashDevelop\Library\AS3\classes</path-element>
     </source-path>
     <library-path append="true">
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\enemies\enemy.swc</path-element>
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\UI\bullets_uid.swc</path-element>
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\enemies\Enemy_Ship_1.swc</path-element>
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\UI\backgrWhole.swc</path-element>
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\UI\fullback19201080.swc</path-element>
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\UI\buttons1.swc</path-element>
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\placeHolder\crate.swc</path-element>
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\placeHolder\tank.swc</path-element>
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\UI\HP2.1.swc</path-element>
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\UI\shipwobble.swc</path-element>
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\UI\menus.swc</path-element>
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\players\spaceship.swc</path-element>
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\enemies\Enemy_ship_2.swc</path-element>
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\UI\back.swc</path-element>
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\enemy2.swc</path-element>
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\enemy.swc</path-element>
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\Bulletroze.swc</path-element>
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\Bulletrood.swc</path-element>
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\Bulletdblauw.swc</path-element>
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\backgrounds.swc</path-element>
-      <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\art\asteroid.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\enemies\enemy.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\UI\bullets_uid.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\enemies\Enemy_Ship_1.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\UI\backgrWhole.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\UI\fullback19201080.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\UI\buttons1.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\placeHolder\crate.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\placeHolder\tank.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\UI\HP2.1.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\UI\shipwobble.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\UI\menus.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\players\spaceship.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\enemies\Enemy_ship_2.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\UI\back.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\enemy2.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\enemy.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\Bulletroze.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\Bulletrood.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\Bulletdblauw.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\backgrounds.swc</path-element>
+      <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\art\asteroid.swc</path-element>
     </library-path>
   </compiler>
   <file-specs>
-    <path-element>C:\Users\Sjoerd\Documents\bewijzenMapSchool\periode3\dip\Asstroids\src\backgroundProcess\Game.as</path-element>
+    <path-element>C:\Users\Sebastiaan\Desktop\Asstroids\src\backgroundProcess\Game.as</path-element>
   </file-specs>
   <default-background-color>#000000</default-background-color>
   <default-frame-rate>30</default-frame-rate>

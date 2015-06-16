@@ -1,6 +1,5 @@
 package objectClasses 
 {
-	import backgroundProcess.Entity;
 	import flash.display.Sprite;
 	import stageClasses.Main;
 	import flash.display.MovieClip;
@@ -13,7 +12,7 @@ package objectClasses
 	 * ...
 	 * @author sjoerd Jakobs
 	 */
-	public class Player extends Entity
+	public class Player extends Sprite
 	{
 		public var shipImg:Class;
 		public var myTankBody:MovieClip;
